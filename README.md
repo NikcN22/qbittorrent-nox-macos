@@ -14,7 +14,7 @@ This is the same build as the qbittorrent-nox that [Lizard](https://nagornyi.su/
 | OpenSSL | 3.5.0 | |
 | Boost | 1.88.0 | headers only |
 
-The binary is built for the architecture of the Mac you run the script on (arm64 or x86_64) and runs on macOS 13 or later. To build other versions, change the numbers at the top of the script.
+The binary is built for the architecture of the Mac you run the script on (arm64 or x86_64), with macOS 13 as the minimum version (`MACOS_DEPLOYMENT_TARGET` at the top of the script). To build other versions, change the numbers there.
 
 ## Requirements
 
